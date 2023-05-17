@@ -14,6 +14,7 @@ steps:
 
   - script: |
       npm cache clean --force
+      npm init
       npm install
       npm run build
     displayName: 'Build and package'
